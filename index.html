@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Revisa si este es el nombre correcto del archivo JS -->
     <title>Web Luigi</title>
 </head>
 
@@ -14,11 +15,14 @@
         <div class="logo">
             <a href="#">Luigi</a>
         </div>
-        <nav class="navbar">
+        <!-- Botón para menú móvil -->
+        <div class="menu-toggle" id="menuToggle">
+            &#9776; <!-- Ícono de hamburguesa -->
+        </div>
+        <nav class="navbar" id="navbar">
             <a href="#servicios">Servicios</a>
             <a href="#portafolio">Portafolio</a>
             <a href="#contacto">Contacto</a>
-
         </nav>
     </header>
 
